@@ -22,6 +22,16 @@ body {
   box-shadow: 5px 5px 5px gray;
 }
 
+#task1:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+#task2:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+#task3:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+
 #backButton:hover {
   box-shadow: 5px 5px 5px gray;
 }

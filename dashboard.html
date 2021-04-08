@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Poppins:wght@600&family=Raleway:wght@500&family=Sacramento&display=swap"
+        rel="stylesheet">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="CovidDash.css">
+
+    <style>
+        table:hover {background-color:rgb(173, 226, 226);}
+        .card:hover {background-color:rgb(173, 226, 226);}
+    </style>
+
+    <title>My COVID-19 Dashboard</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" style="margin-top: 20px">
+            <div class="col-md-4 topBtn">
+              <button
+                type="button"
+                id="buttonTop"
+                class="btn btn-lg btn-block"
+                onclick="window.open('/settings.html', '_self')"
+              >
+                SETTINGS
+                <img
+                  style="width: 35px; height: 35px"
+                  stroke="none"
+                  src="/Res/gear-fill.svg"
+                />
+              </button>
+            </div>
+            <div class="col-md-4 topBtn">
+              <button
+                type="button"
+                id="buttonTop"
+                class="btn btn-lg btn-block"
+                onclick="window.open('/index.html', '_self')"
+              >
+                HOME
+                <img style="width: 35px; height: 35px" src="/Res/home.png" />
+              </button>
+            </div>
+            <div class="col-md-4 topBtn">
+              <button type="button" id="buttonTop" class="btn btn-lg btn-block">
+                HELP
+                <img style="width: 35px; height: 35px" src="/Res/help.png" />
+              </button>
+            </div>
+          </div>
+    </div>
+
+
+    <!-- Home Section -->
+    <section id="home-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm spac">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmaxcdn.icons8.com%2FShare%2Ficon%2FHealthcare%2Fvirus1600.png&f=1&nofb=1" style="height: 150px; margin-left: auto; margin-right: auto; display: block; color: teal;">
+                    <h1 class="home-heading" style="text-align: center; padding-bottom: 5%; padding-top: 5%; color: black;">COVID-19 Dashboard</h1>
+                    <div>
+                        <div>
+                            <table class = "table table-bordered" style="width:278px; display: inline-block; border-radius: 20px; margin-right: 6%; margin-left: 7%;">
+                                <tr>
+                                    <th class = "thsr" scope="col" style="text-align: center; width: 268px; border: 0px; background-color: teal; color: white;">Confirmed</th>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center; width: 370px; border: 0px;">9150 <span style="color: limegreen;">+ 453</span></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center; width: 370px; border: 0px;"><img src="/Res/graph.png" style="height: 75px;"></td>
+                                </tr>
+                            </table>
+                            <table class = "table table-bordered" style="width:278px; display: inline-block; border-radius: 20px; margin-right: 6%;">
+                                <tr>
+                                    <th class = "thsr" scope="col" style="text-align: center; width: 268px; border: 0px; background-color: teal; color: white;">Recovered</th>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center; width: 370px; border: 0px;">5618 </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center; width: 370px; border: 0px;"><img src="/Res/graph.png" style="height: 75px;"></td>
+                                </tr>
+                            </table>
+                            <table class = "table table-bordered" style="width:278px;display: inline-block; border-radius: 20px;">
+                                <tr>
+                                    <th class = "thsr" scope="col" style="text-align: center; width: 268px; border: 0px; background-color: teal; color: white;">Death</th>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center; width: 340px; border: 0px;">137 <span style="color: red;">+ 5</span></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center; width: 370px; border: 0px;"><img src="/Res/graph.png" style="height: 75px;"></td>
+                                </tr>
+                            </table
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <hr style="background-color: white;">
+
+            <div>
+                <h2 class="home-heading" style="color: black; padding-top: 5%; padding-bottom: 5%;" id = "sec2">News from your area</h2>
+            </div>
+            <div class="container" style="padding-bottom: 5%;">
+                <div class="row shift">
+                    <div class="col-sm">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="/Res/image1.png" alt="Card image cap" height="166px">
+                            <div class="card-body">
+                                <h5 class="card-title">New Mass Vaccination Sites in Chicago, Cook County Cases Surge</h5>
+                                <p class="card-text">NBC Chicago</p>
+                                <a href="https://www.nbcchicago.com/news/coronavirus/illinois-coronavirus-updates-new-mass-vaccination-sites-in-chicago-cook-county-cases-surge/2478337/"
+                                class="btn btn-info" style="width: 246px; background-color: teal;">View Article</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="/Res/image2.jpeg" alt="Card image cap" height="166px">
+                            <div class="card-body">
+                                <h5 class="card-title">Event at a rural Illinois bar led to 46 cases of COVID-19 in the area</h5>
+                                <p class="card-text">Chicago Tribune</p>
+                                <a href="https://www.chicagotribune.com/coronavirus/ct-coronavirus-cdc-bar-illinois-covid-outbreak-20210405-uqztgztv6fhdtjrb275uw7ulpy-story.html"
+                                class="btn btn-info" style="width: 246px; background-color: teal;">View Article</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="/Res/image3.jpeg" alt="Card image cap" height="166px">
+                            <div class="card-body">
+                                <h5 class="card-title">VP Kamala Harris visits Chicago to highlight COVID vaccine equity</h5>
+                                <p class="card-text">abc7 Chicago</p>
+                                <a href="https://abc7chicago.com/politics/vp-harris-visiting-chicago-to-highlight-vaccine-equity/10490813/"
+                                class="btn btn-info" style="width: 246px; background-color: teal;">View Article</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <hr style="background-color: white; padding-bottom: 5%;">
+    
+                <div>
+                    <h2 class="home-heading" style="color: black; padding-bottom: 5%;">Vaccine Centers nearby</h2>
+                </div>
+                <div class="container" id = "sec3"> 
+                    <div class="row shift">
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">University of Illinois</h5>
+                                    <p class="card-text">1 miles</p>
+                                    <a href="https://hospital.uillinois.edu/primary-and-specialty-care/infectious-diseases/covid-19-coronavirus/vaccine"
+                                        class="btn btn-info" style="width: 246px; background-color: teal;">Go to partners website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Rush Institute</h5>
+                                    <p class="card-text">1.5 miles</p>
+                                    <a href="https://www.rush.edu/patients-visitors/covid-19-resources/covid-19-vaccines/schedule-covid-19-vaccination"
+                                        class="btn btn-info" style="width: 246px; background-color: teal;">Go to partners website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Northwestern Health</h5>
+                                    <p class="card-text">4 miles</p>
+                                    <a href="https://www.nm.org/conditions-and-care-areas/covid-19-resource-center/covid-19-vaccines"
+                                        class="btn btn-info" style="width: 246px; background-color: teal;">Go to partners website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Walgreens 3076</h5>
+                                    <p class="card-text">2 miles</p>
+                                    <a href="https://www.walgreens.com/topic/promotion/covid-vaccine.jsp"
+                                        class="btn btn-info" style="width: 246px; background-color: teal;">Go to partners website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Loyola Health</h5>
+                                    <p class="card-text">2 miles</p>
+                                    <a href="https://loyolamedicine.org/coronavirus/vaccine-registration-non-loyola"
+                                        class="btn btn-info" style="width: 246px; background-color: teal;">Go to partners website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Jewel Osco 3223</h5>
+                                    <p class="card-text">1.2 miles</p>
+                                    <a href="https://www.jewelosco.com/pharmacy/covid-19.html"
+                                        class="btn btn-info" style="width: 246px; background-color: teal;">Go to partners website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Marianos 8150</h5>
+                                    <p class="card-text">1 miles</p>
+                                    <a href="https://www.marianos.com/rx/covid-eligibility"
+                                        class="btn btn-info" style="width: 246px; background-color: teal;">Go to partners website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Walgreens 9600</h5>
+                                    <p class="card-text">3 miles</p>
+                                    <a href="https://www.walgreens.com/topic/promotion/covid-vaccine.jsp"
+                                        class="btn btn-info" style="width: 246px; background-color: teal;">Go to partners website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Walgreens 1450</h5>
+                                    <p class="card-text">2 miles</p>
+                                    <a href="https://www.walgreens.com/topic/promotion/covid-vaccine.jsp"
+                                        class="btn btn-info" style="width: 246px; background-color: teal;">Go to partners website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section> 
+
+    <hr style="background-color: white;">
+
+    <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js" data-auto-replace-svg="nest"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html

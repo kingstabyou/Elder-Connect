@@ -1,0 +1,172 @@
+/* body: all pages will have same body size and centering */
+body {
+	width: 1000px;
+	margin: auto;
+	display: block;
+}
+
+/* buttonTop: for use in SETTINGS and HELP buttons */
+#buttonTop {
+	width: 300px; 
+	border-style: solid; 
+	border-color: rgb(0, 0, 0); 
+	border-radius: 20px; 
+	border-width: 5px;
+	font-size: 30px;
+	padding-top: 15px;
+	margin: auto;
+	display: block;
+}
+
+#buttonTop:hover {
+	box-shadow: 5px 5px 5px gray;
+}
+
+/* centered: for use in centering an element within a column */
+#centered {
+	margin: auto; 
+	display: block;
+}
+
+.centered.mainBtn:hover {
+	box-shadow: 5px 5px 5px gray;
+}
+
+#mainButton {
+
+}
+
+.dropBtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	margin-left: -100px;
+	width: 500px;
+	border-style: solid; 
+	border-color: rgb(0, 0, 0); 
+	border-radius: 20px; 
+	border-width: 5px;
+	font-size: 30px;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropBtn:hover, .dropBtn:focus {
+	background-color: #3e8e41;
+  }
+  
+  /* The search field */
+  #myInput {
+	box-sizing: border-box;
+	background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn4.iconfinder.com%2Fdata%2Ficons%2Fionicons%2F512%2Ficon-ios7-search-strong-128.png&f=1&nofb=1');
+	background-position: 2px 15px;
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-color: #9aff8d;
+	color: rgb(0, 0, 0);
+	width: 495px;
+	font-size: 16px;
+	padding: 14px 20px 12px 45px;
+	border: none;
+	border-bottom: 5px solid black;
+	border-right: 5px solid black;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #d1ffbd;
+	width: 500px;
+	margin-left: -100px;
+	border: 1px solid #ddd;
+	z-index: 1;
+	font-size: 30px;
+	border-style: solid; 
+	border-color: rgb(0, 0, 0); 
+	border-radius: 20px; 
+	border-width: 5px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #9aff8d}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+  .settingsDiv {
+	width: 500px; 
+	border-style: solid; 
+	border-color: rgb(0, 0, 0); 
+	border-radius: 20px; 
+	border-width: 5px;
+	font-size: 30px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	margin: auto;
+	display: block;
+	margin-left: -100px;
+	margin-top: 20px;
+  }
+
+  .smallCircleBtn {
+	width: 100px;
+	height: 100px;
+	border-style: solid; 
+	border-color: rgb(0, 0, 0); 
+	border-radius: 50px; 
+	border-width: 5px;
+  }
+
+  #settingsTxt1 {
+	  color: black;
+	  padding-left: 50px;
+	  font-size: 35px;
+	  vertical-align: middle;
+  }
+
+  #settingsTxt2 {
+	color: black;
+	padding-left: 2px;
+	font-size: 30px;
+	vertical-align: middle;
+}
+
+  #settingsBtnRight {
+	float: right;
+	margin-right: 5px;
+  }
+
+  .okBtn {
+	width: 500px; 
+	height: 100px;
+	border-style: solid; 
+	border-color: rgb(0, 0, 0); 
+	border-radius: 20px; 
+	border-width: 5px;
+	font-size: 30px;
+	padding-top: 15px;
+	display: block;
+	margin-top: 20px;
+	margin-left: -100px;
+	background-color: rgb(112, 255, 112);
+  }

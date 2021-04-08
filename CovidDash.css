@@ -1,0 +1,184 @@
+#home-section{
+    background-color:white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color:#FFFFFF;
+}
+
+#latest-section{
+    background-color: #0E0240;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #FF3366;
+}
+
+#blog-section{
+    background-color: #0E0240;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color:#9012FD;
+}
+
+
+.lastest-heading, .home-heading{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'serif';
+    margin-bottom: 2rem;
+}
+
+.measure-head{
+    font-size: 29px;
+    text-align: center;
+    font-family: 'serif';
+    margin-bottom: 2rem;
+}
+
+.tdim{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+.col-sm{
+    margin-top: 0.5rem;
+}
+
+.shift{
+    margin-left: 1rem;
+}
+
+.bg-dark{
+    background-color:#0B0334!important;
+}
+
+.imgal{
+    text-align: center;
+}
+
+.rohan{
+    font-family: 'serif';
+    font-size: 40px;
+}
+
+.measures{
+    font-family: 'serif';
+    font-size: 30px;
+    margin-top: 2rem;
+    color:#BD0FE1;
+}
+
+.helpline{
+    font-family: 'serif';
+    font-size: 20px;
+    margin-top: 2rem;
+}
+.lastest-subh{
+    margin-top: -2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'serif';
+    margin-bottom: 3rem;
+}
+#footer-section{
+    background-color: #0B0334;
+    color: white;
+    padding: 1rem;
+}
+
+.card-title, .card-text{
+    color: black;
+    font-family: 'serif';
+}
+
+.spac{
+    margin-bottom: 2rem;
+}
+
+/* buttonTop: for use in SETTINGS and HELP buttons */
+#buttonTop {
+	width: 300px; 
+	border-style: solid; 
+	border-color: rgb(0, 0, 0); 
+	border-radius: 20px; 
+	border-width: 5px;
+	font-size: 30px;
+	padding-top: 15px;
+    margin: auto;
+    font-weight: bold;
+    display: block;
+    font-family: 'serif';
+}
+
+#buttonTop:hover {
+	box-shadow: 5px 5px 5px gray;
+}
+
+/* centered: for use in centering an element within a column */
+#centered {
+	margin: auto; 
+	display: block;
+}
+
+.centered.mainBtn:hover {
+	box-shadow: 5px 5px 5px gray;
+}
+
+
+.dropBtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	margin-left: -100px;
+	width: 500px;
+	border-style: solid; 
+	border-color: rgb(0, 0, 0); 
+	border-radius: 20px; 
+	border-width: 5px;
+	font-size: 30px;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropBtn:hover, .dropBtn:focus {
+	background-color: #3e8e41;
+  }
+
+  .card{
+    border-radius: 100px;
+    border-style: solid; 
+	border-color: rgb(0, 0, 0); 
+	border-radius: 20px; 
+	border-width: 5px;
+	margin: auto;
+    display: block;   
+  }
+
+  .table{
+    border-radius: 100px;
+    border-style: solid; 
+	border-color: rgb(0, 0, 0); 
+	border-radius: 20px; 
+	border-width: 5px;
+	margin: auto;
+    display: block; 
+  }
+
+  .card-img-top{
+	border-radius: 10px; 
+	border-width: 5px;
+	margin: auto;
+    display: block; 
+  }
+
+  .thsr{
+    border-radius: 10px; 
+	border-width: 5px;
+	margin: auto;
+    display: block; 
+    width: 335px;
+  }

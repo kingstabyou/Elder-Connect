@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Get Help</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="Get_Help.css" />
+
+    <!-- Use mobile-aware viewport -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Load any supplemental Javascript libraries here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row" style="margin-top: 20px">
+        <div class="col-md-4 topBtn">
+          <button
+            type="button"
+            id="buttonTop"
+            class="btn btn-lg btn-block"
+            onclick="window.open('/settings.html', '_self')"
+          >
+            SETTINGS
+            <img
+              style="width: 35px; height: 35px"
+              stroke="none"
+              src="/Res/gear-fill.svg"
+            />
+          </button>
+        </div>
+        <div class="col-md-4 topBtn">
+          <button
+            type="button"
+            id="buttonTop"
+            class="btn btn-lg btn-block"
+            onclick="window.open('/index.html', '_self')"
+          >
+            HOME
+            <img style="width: 35px; height: 35px" src="/Res/home.png" />
+          </button>
+        </div>
+        <div class="col-md-4 topBtn">
+          <button type="button" id="buttonTop" class="btn btn-lg btn-block">
+            HELP
+            <img style="width: 35px; height: 35px" src="/Res/help.png" />
+          </button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 back">
+          <div class="row">
+            <div class="col-md-4">
+              <button
+                type="button"
+                id="backButton"
+                class="btn btn-lg btn-block"
+                onclick="window.open('/index.html', '_self')"
+              >
+                BACK
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 title">
+          <div class="box">
+            <label for="pageTitle">GET HELP WITH TASKS</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 search">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <i
+                ><img
+                  style="width: 25px; height: 40px"
+                  src="/Res/search.svg"
+                  alt="My Search SVG"
+              /></i>
+            </div>
+            <input
+              type="text"
+              id="form1"
+              class="form-inline"
+              placeholder="Search"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="lastRow">
+        <table id="taskTable">
+          <tr>
+            <td rowspan="2" class="scrollLeft">
+              <img
+                style="width: 100px; height: 160px"
+                src="/Res/caret-left-fill.svg"
+              />
+            </td>
+            <td class="tasks">
+              <div class="col-md-4 task1" id="task1">
+                <img
+                  style="
+                    width: 200px;
+                    height: 200px;
+                    border-bottom: 2px solid black;
+                  "
+                  src="/Res/cleaning-tools.png"
+                  onclick="window.open('/GetHelp_Workers_Clean.html', '_self')"
+                />
+                <label
+                  id="tasklabel"
+                  onclick="window.open('/GetHelp_Workers_Clean.html', '_self')"
+                  >CLEAN</label
+                >
+              </div>
+            </td>
+            <td class="tasks">
+              <div class="col-md-4 task2">
+                <img
+                  style="
+                    width: 200px;
+                    height: 200px;
+                    border-bottom: 2px solid black;
+                  "
+                  src="/Res/shovel.png"
+                  onclick="window.open('/GetHelp_Workers_Shovel.html', '_self')"
+                />
+                <label
+                  id="tasklabel"
+                  onclick="window.open('/GetHelp_Workers_Shovel.html', '_self')"
+                  >SHOVEL</label
+                >
+              </div>
+            </td>
+            <td class="tasks">
+              <div class="col-md-4 task3">
+                <img
+                  style="
+                    width: 200px;
+                    height: 200px;
+                    border-bottom: 2px solid black;
+                  "
+                  onclick="window.open('/GetHelp_Workers_Garden.html', '_self')"
+                  src="/Res/gardening.png"
+                />
+                <label
+                  id="tasklabel"
+                  onclick="window.open('/GetHelp_Workers_Garden.html', '_self')"
+                  >GARDEN</label
+                >
+              </div>
+            </td>
+            <td rowspan="2" class="scrollRight">
+              <img
+                style="width: 100px; height: 160px"
+                src="/Res/caret-right-fill.svg"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script>
+      function Clean() {
+        console.log("enteresd");
+        window.location.href = "GetHelp_Workers.html?fruit=apple";
+      }
+    </script>
+  </body>
+</html>

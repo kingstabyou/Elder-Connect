@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Get Help Bio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="GetHelp_Bio.css" />
+
+    <!-- Use mobile-aware viewport -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Load any supplemental Javascript libraries here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div style="padding-top: 10px"></div>
+      
+    <div class="container-fluid">
+      <div class="row" style="margin-top: 20px">
+        <div class="col-md-4 topBtn">
+          <button
+            type="button"
+            id="buttonTop"
+            class="btn btn-lg btn-block"
+            onclick="window.open('/settings.html', '_self')"
+          >
+            SETTINGS
+            <img
+              style="width: 35px; height: 35px"
+              stroke="none"
+              src="/Res/gear-fill.svg"
+            />
+          </button>
+        </div>
+        <div class="col-md-4 topBtn">
+          <button
+            type="button"
+            id="buttonTop"
+            class="btn btn-lg btn-block"
+            onclick="window.open('/index.html', '_self')"
+          >
+            HOME
+            <img style="width: 35px; height: 35px" src="/Res/home.png" />
+          </button>
+        </div>
+        <div class="col-md-4 topBtn">
+          <button type="button" id="buttonTop" class="btn btn-lg btn-block">
+            HELP
+            <img style="width: 35px; height: 35px" src="/Res/help.png" />
+          </button>
+        </div>
+      </div>
+
+      <!-- <div class="row">
+        <div class="col-md-4">
+          <button class="button" style="vertical-align: middle" id="settings">
+            <span>Settings ⚙</span>
+          </button>
+        </div>
+        <div class="col-md-4">
+          <button class="button" style="vertical-align: middle" id="home">
+            <span>Home 🏠</span>
+          </button>
+        </div>
+        <div class="col-md-4">
+          <button class="button" style="vertical-align: middle" id="help">
+            <span>Help ❔</span>
+          </button>
+        </div>
+      </div> -->
+      <div style="padding-top: 40px"></div>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-5">
+          <table style="width: 100%">
+            <tr>
+              <td><b>Name:</b> Ryan MCmohan</td>
+              <td><b>Age:</b> 24</td>
+            </tr>
+            <tr>
+              <td>
+                <b>Bio:</b> I love Cleaning Gardening and shoveling, born and raised in Chicago
+              </td>
+            </tr>
+            <tr>
+              <td><b>Price:</b> 0.3/min</td>
+              <td><b>Rating:</b> 5/5</td>
+            </tr>
+          </table>
+          <div class="col-md-2"></div>
+        </div>
+        <div class="col-md-3">
+          <img
+            class="resize"
+            src="/Res/jim.jfif"
+          />
+        </div>
+      </div>
+      <div style="padding-top: 40px"></div>
+      <div class="row">
+        <div class="col-md-12" style="border-top: 2px solid rgb(0, 0, 0)">
+          <h3 class="text-center" id="Schedule">Schedule an appointment</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-3">
+          <input type="date" id="date" value="2018-07-22" required />
+        </div>
+        <div class="col-md-2">
+          <input type="time" id="time" required />
+        </div>
+        <div class="col-md-3">
+          <button type="button" id="buttonTop" class="button1">Confirm</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

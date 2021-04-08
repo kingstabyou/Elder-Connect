@@ -1,0 +1,200 @@
+body {
+  width: 1000px;
+  margin: auto;
+  display: block;
+}
+#buttonTop {
+  width: 300px;
+  height: 80px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border-width: 5px;
+  font-size: 30px;
+  padding-top: 10px;
+  margin: auto;
+  display: block;
+}
+
+#buttonTop:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+
+#backButton {
+  width: 150px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border-width: 5px;
+  font-size: 30px;
+  padding-block-start: 80px;
+  padding-top: 15px;
+  margin: auto;
+  /* display: block; */
+}
+
+.col-md-12.back {
+  padding-top: 20px;
+}
+.lastRow {
+  padding-right: 133px;
+}
+#title {
+  vertical-align: middle;
+  justify-content: center;
+  padding-right: 80px;
+  padding-bottom: 50px;
+  font-size: 45pt;
+  font-weight: 500;
+}
+.header {
+  height: 10%;
+}
+.box.profilePic {
+  justify-self: center;
+}
+
+/* .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#settings span:after {
+  content: "⚙";
+}
+
+#home span:after {
+  content: "🏠";
+}
+
+#help span:after {
+  content: "❔";
+} */
+
+.dp {
+  height: 50px;
+  width: 50px;
+}
+
+img.resize {
+  width: 150px;
+  height: 150px;
+  font-size: 15px;
+  padding-top: 4px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-left: 12%;
+  font-size: 24px;
+  border: none;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+}
+
+td {
+  border: 3px solid black;
+  border-radius: 0px;
+  -moz-border-radius: 5px;
+  padding: 5px;
+  height: 100px;
+  text-align: center;
+}
+tr:hover {
+  background-color: #b255e7;
+}
+#firstcell:hover {
+  border-top-left-radius: 25px;
+  background-color: #b255e7;
+}
+
+#firstcell {
+  border-top-left-radius: 25px;
+  border-top: 3px solid black;
+  display: flex;
+}
+#fourthcell {
+  border-top-right-radius: 25px;
+  border-top: 3px solid black;
+}
+#secondcell {
+  border-top: 3px solid black;
+}
+
+#thirdcell {
+  border-top: 3px solid black;
+}
+
+.box.profilePic {
+  justify-content: center;
+  vertical-align: middle;
+}
+.information {
+  font-weight: 530;
+}
+#header1,
+#header2,
+#header3 {
+  border-spacing: 0;
+  margin-left: 25%;
+  font-size: 24px;
+  font-weight: 530;
+  border: none;
+  height: 25px;
+}
+
+#header4 {
+  border-spacing: 0;
+  margin-left: 25%;
+  font-size: 24px;
+  font-weight: 530;
+  border: none;
+  height: 25px;
+}
+
+#header1,
+#header2,
+#header3,
+#header4,
+#header5:hover {
+  background-color: white;
+}
+
+#header4:hover {
+  background-color: white;
+}
+
+/* thead.tr.td :hover {
+  background-color: white;
+} */
+
+thead {
+  padding: 5px;
+  height: 75px;
+  text-align: center;
+  border: none;
+}
+
+.table td {
+  vertical-align: middle;
+}

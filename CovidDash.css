@@ -25,14 +25,12 @@
     text-transform: capitalize;
     font-weight: bold;
     text-align: center;
-    font-family: 'serif';
     margin-bottom: 2rem;
 }
 
 .measure-head{
     font-size: 29px;
     text-align: center;
-    font-family: 'serif';
     margin-bottom: 2rem;
 }
 
@@ -59,19 +57,16 @@
 }
 
 .rohan{
-    font-family: 'serif';
     font-size: 40px;
 }
 
 .measures{
-    font-family: 'serif';
     font-size: 30px;
     margin-top: 2rem;
     color:#BD0FE1;
 }
 
 .helpline{
-    font-family: 'serif';
     font-size: 20px;
     margin-top: 2rem;
 }
@@ -79,7 +74,6 @@
     margin-top: -2rem;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'serif';
     margin-bottom: 3rem;
 }
 #footer-section{
@@ -90,7 +84,6 @@
 
 .card-title, .card-text{
     color: black;
-    font-family: 'serif';
 }
 
 .spac{
@@ -105,11 +98,9 @@
 	border-radius: 20px; 
 	border-width: 5px;
 	font-size: 30px;
-	padding-top: 15px;
+	padding-top: 8px;
     margin: auto;
-    font-weight: bold;
     display: block;
-    font-family: 'serif';
 }
 
 #buttonTop:hover {
@@ -178,6 +169,8 @@
   .thsr{
     border-radius: 10px; 
 	border-width: 5px;
+    border-style: solid; 
+	border-color: rgb(0, 0, 0);
 	margin: auto;
     display: block; 
     width: 335px;

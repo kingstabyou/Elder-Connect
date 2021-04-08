@@ -1,177 +1,193 @@
-#home-section{
-    background-color:white;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    color:#FFFFFF;
+body {
+  width: 1000px;
+  margin: auto;
+  display: block;
+  font-family: inherit;
 }
 
-#latest-section{
-    background-color: #0E0240;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    color: #FF3366;
+#home-section {
+  background-color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #ffffff;
 }
 
-#blog-section{
-    background-color: #0E0240;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    color:#9012FD;
+#latest-section {
+  background-color: #0e0240;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #ff3366;
 }
 
-
-.lastest-heading, .home-heading{
-    font-size: 40px;
-    text-transform: capitalize;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 2rem;
+#blog-section {
+  background-color: #0e0240;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #9012fd;
 }
 
-.measure-head{
-    font-size: 29px;
-    text-align: center;
-    margin-bottom: 2rem;
+.lastest-heading,
+.home-heading {
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-.tdim{
-    width: fit-content;
-    margin: auto;
-    margin-bottom: 1.5rem;
+.measure-head {
+  font-size: 29px;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-.col-sm{
-    margin-top: 0.5rem;
+.tdim {
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 1.5rem;
 }
 
-.shift{
-    margin-left: 1rem;
+.col-sm {
+  margin-top: 0.5rem;
 }
 
-.bg-dark{
-    background-color:#0B0334!important;
+.shift {
+  margin-left: 1rem;
 }
 
-.imgal{
-    text-align: center;
+.bg-dark {
+  background-color: #0b0334 !important;
 }
 
-.rohan{
-    font-size: 40px;
+.imgal {
+  text-align: center;
 }
 
-.measures{
-    font-size: 30px;
-    margin-top: 2rem;
-    color:#BD0FE1;
+.measures {
+  font-size: 30px;
+  margin-top: 2rem;
+  color: #bd0fe1;
 }
 
-.helpline{
-    font-size: 20px;
-    margin-top: 2rem;
+.helpline {
+  font-size: 20px;
+  margin-top: 2rem;
 }
-.lastest-subh{
-    margin-top: -2rem;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 3rem;
+.lastest-subh {
+  margin-top: -2rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
 }
-#footer-section{
-    background-color: #0B0334;
-    color: white;
-    padding: 1rem;
-}
-
-.card-title, .card-text{
-    color: black;
+#footer-section {
+  background-color: #0b0334;
+  color: white;
+  padding: 1rem;
 }
 
-.spac{
-    margin-bottom: 2rem;
+.card-title,
+.card-text {
+  color: black;
+}
+
+.spac {
+  margin-bottom: 2rem;
 }
 
 /* buttonTop: for use in SETTINGS and HELP buttons */
 #buttonTop {
-	width: 300px; 
-	border-style: solid; 
-	border-color: rgb(0, 0, 0); 
-	border-radius: 20px; 
-	border-width: 5px;
-	font-size: 30px;
-	padding-top: 8px;
-    margin: auto;
-    display: block;
+  width: 300px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border-width: 5px;
+  font-size: 30px;
+  padding-top: 8px;
+  margin: auto;
+  display: block;
+}
+
+.btn {
+  width: 230px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border-width: 5px;
+  font-size: 15px;
+  padding-top: 8px;
+  margin: auto;
+  display: block;
 }
 
 #buttonTop:hover {
-	box-shadow: 5px 5px 5px gray;
+  box-shadow: 5px 5px 5px gray;
 }
 
 /* centered: for use in centering an element within a column */
 #centered {
-	margin: auto; 
-	display: block;
+  margin: auto;
+  display: block;
 }
 
 .centered.mainBtn:hover {
-	box-shadow: 5px 5px 5px gray;
+  box-shadow: 5px 5px 5px gray;
 }
 
-
 .dropBtn {
-	background-color: #4CAF50;
-	color: white;
-	padding: 16px;
-	font-size: 16px;
-	border: none;
-	cursor: pointer;
-	margin-left: -100px;
-	width: 500px;
-	border-style: solid; 
-	border-color: rgb(0, 0, 0); 
-	border-radius: 20px; 
-	border-width: 5px;
-	font-size: 30px;
-  }
-  
-  /* Dropdown button on hover & focus */
-  .dropBtn:hover, .dropBtn:focus {
-	background-color: #3e8e41;
-  }
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: -100px;
+  width: 500px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border-width: 5px;
+  font-size: 30px;
+}
 
-  .card{
-    border-radius: 100px;
-    border-style: solid; 
-	border-color: rgb(0, 0, 0); 
-	border-radius: 20px; 
-	border-width: 5px;
-	margin: auto;
-    display: block;   
-  }
+/* Dropdown button on hover & focus */
+.dropBtn:hover,
+.dropBtn:focus {
+  background-color: #3e8e41;
+}
 
-  .table{
-    border-radius: 100px;
-    border-style: solid; 
-	border-color: rgb(0, 0, 0); 
-	border-radius: 20px; 
-	border-width: 5px;
-	margin: auto;
-    display: block; 
-  }
+.card {
+  border-radius: 100px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border-width: 5px;
+  margin: auto;
+  display: block;
+}
 
-  .card-img-top{
-	border-radius: 10px; 
-	border-width: 5px;
-	margin: auto;
-    display: block; 
-  }
+.table {
+  border-radius: 100px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border-width: 5px;
+  margin: auto;
+  display: block;
+}
 
-  .thsr{
-    border-radius: 10px; 
-	border-width: 5px;
-    border-style: solid; 
-	border-color: rgb(0, 0, 0);
-	margin: auto;
-    display: block; 
-    width: 335px;
-  }
+.card-img-top {
+  border-radius: 10px;
+  border-width: 5px;
+  margin: auto;
+  display: block;
+}
+
+.thsr {
+  border-radius: 10px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  margin: auto;
+  display: block;
+  width: 335px;
+}

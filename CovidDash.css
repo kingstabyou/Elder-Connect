@@ -85,9 +85,13 @@ body {
   padding: 1rem;
 }
 
-.card-title,
+.card-title{
+  color: black;
+}
 .card-text {
   color: black;
+  margin-top: -15px;
+  font-size: 19px;
 }
 
 .spac {
@@ -113,10 +117,31 @@ body {
   border-color: rgb(0, 0, 0);
   border-radius: 20px;
   border-width: 5px;
-  font-size: 15px;
+  font-size: 18px;
   padding-top: 8px;
   margin: auto;
   display: block;
+}
+
+.btn.partner {
+  background-color: #72ff77;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn.article {
+  background-color: #f6ff94;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn.article:hover {
+  box-shadow: 5px 5px 5px gray;
+  background-color: #f1ff54;
+}
+
+.btn:hover {
+  box-shadow: 5px 5px 5px gray;
 }
 
 #buttonTop:hover {
@@ -156,27 +181,29 @@ body {
 }
 
 .card {
-  border-radius: 100px;
+  border-radius: 20px;
   border-style: solid;
   border-color: rgb(0, 0, 0);
-  border-radius: 20px;
   border-width: 5px;
   margin: auto;
   display: block;
 }
 
+.card:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+
 .table {
-  border-radius: 100px;
+  border-radius: 20px;
   border-style: solid;
   border-color: rgb(0, 0, 0);
-  border-radius: 20px;
   border-width: 5px;
   margin: auto;
   display: block;
 }
 
 .card-img-top {
-  border-radius: 10px;
+  border-radius: 20px;
   border-width: 5px;
   margin: auto;
   display: block;

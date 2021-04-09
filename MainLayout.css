@@ -8,6 +8,7 @@ body {
 /* buttonTop: for use in SETTINGS and HELP buttons */
 #buttonTop {
 	width: 300px; 
+	height: 70px;
 	border-style: solid; 
 	border-color: rgb(0, 0, 0); 
 	border-radius: 20px; 

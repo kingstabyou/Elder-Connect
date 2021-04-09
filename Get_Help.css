@@ -90,6 +90,11 @@ td.tasks {
   border-collapse: separate;
   height: 250px;
 }
+
+td.tasks:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+
 td.scrollLeft {
   border-right: 5px solid #333;
   border-collapse: initial;

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Get Help Workers</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="GetHelp_Workers.css" />
+
+    <!-- Use mobile-aware viewport -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Load any supplemental Javascript libraries here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div style="padding-top: 20px"></div>
+      <div class="row" style="margin-top: 20px">
+        <div class="col-md-4 topBtn">
+          <button
+            type="button"
+            id="buttonTop"
+            class="btn btn-lg btn-block"
+            onclick="window.open('/GR4/settings.html', '_self')"
+          >
+            SETTINGS
+            <img
+              style="width: 35px; height: 35px; margin-top: -5px;"
+              stroke="none"
+              src="/GR4/Res/gear-fill.svg"
+            />
+          </button>
+        </div>
+        <div class="col-md-4 topBtn">
+          <button
+            type="button"
+            id="buttonTop"
+            class="btn btn-lg btn-block"
+            onclick="window.open('/GR4/index.html', '_self')"
+          >
+            HOME
+            <img style="width: 35px; height: 35px; margin-top: -5px;" src="/GR4/Res/home.png" />
+          </button>
+        </div>
+        <div class="col-md-4 topBtn">
+          <div class="popup">
+          <button type="button" id="buttonTop" class="btn btn-lg btn-block" onclick="myFunction()">
+            HELP
+            <img style="width: 35px; height: 35px; margin-top: -5px;" src="/GR4/Res/help.png" />
+          </button>
+          <span class="popuptext" id="myPopup">Select the desired Worker to complete the task</span>
+        </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-12 back">
+          <div class="row">
+            <div class="col-md-4">
+              <!-- <button
+                type="button"
+                id="backButton"
+                class="btn btn-lg btn-block"
+                style="padding-top: 8px;"
+                onclick="window.open('/GR4/Get_Help.html', '_self')"
+              >
+                BACK
+              </button> -->
+            </div>
+            <div class="col-md-8 title">
+              <label id="title">CLEANING</label>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="row" id="lastRow">
+        <div class="col-md-12 table">
+          <table style="width: 80%;">
+            <thead>
+              <tr>
+                <td id="header1">USER</td>
+                <td id="header2">NAME</td>
+                <td id="header3">PRICE</td>
+                <td id="header4">RATING</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr onclick="openBio()">
+                <td class="information" id="firstcell" style="justify-content: center;">
+                  <div class="box">
+                    <img style="width: 20px; height: 20px;" src="/GR4/Res/heart.svg" id="favorite">
+                  </div>
+                  <div class="box profilePic">
+                    <img style="width: 60px; height: 70px;" src="/GR4/Res/man mechanic.svg" id="profilePic">
+                  </div>
+                </td>
+                <td id="secondcell">SASHI</td>
+                <td id="thirdcell">$0.3 / min</td>
+                <td id="fourthcell">8/10</td>
+              </tr>
+              <tr onclick="openBio()">
+                <td>
+                  <div class="box profilePic">
+                    <img style="width: 60px; height: 70px;" src="/GR4/Res/sid.svg" id="profilePic">
+                  </div>
+                </td>
+                <td>SID</td>
+                <td>$0.1 / min</td>
+                <td>1/10</td>
+              </tr>
+              <tr onclick="openBio()">
+                <td>
+                  <div class="box profilePic">
+                    <img style="width: 60px; height: 70px;" src="/GR4/Res/400.svg" id="profilePic">
+                  </div>
+                </td>
+                <td>ALICE</td>
+                <td>$400 / min</td>
+                <td>10/10</td>
+              </tr>
+              <tr onclick="openBio()">
+                <td>
+                  <div class="box profilePic">
+                    <img style="width: 60px; height: 70px;" src="/GR4/Res/woman person.svg" id="profilePic">
+                  </div>
+                </td>
+                <td>JORDEN</td>
+                <td>$0.8 / min</td>
+                <td>8/10</td>
+              </tr>
+              <tr onclick="openBio()">
+                <td>
+                  <div class="box profilePic">
+                    <img style="width: 60px; height: 70px;" src="/GR4/Res/boy.svg" id="profilePic">
+                  </div>
+                </td>
+                <td>AMAR</td>
+                <td>$0.7 / min</td>
+                <td>7/10</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function openBio() {
+        window.location.href = "/GR4/GetHelp_Bio.html";
+      }
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>

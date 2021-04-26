@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Elder Connect</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="MentalHealth.css" />
+
+    <!-- Use mobile-aware viewport -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Load any supplemental Javascript libraries here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+        <div class="row" style="margin-top: 20px">
+            <div class="col-md-4 topBtn">
+              <button
+                type="button"
+                id="buttonTop"
+                class="btn btn-lg btn-block"
+                onclick="window.open('/GR4/settings.html', '_self')"
+              >
+                SETTINGS
+                <img
+                  style="width: 35px; height: 35px; margin-top: -5px;"
+                  stroke="none"
+                  src="/GR4/Res/gear-fill.svg"
+                />
+              </button>
+            </div>
+            <div class="col-md-4 topBtn">
+              <button
+                type="button"
+                id="buttonTop"
+                class="btn btn-lg btn-block"
+                onclick="window.open('/GR4/index.html', '_self')"
+              >
+                HOME
+                <img style="width: 35px; height: 35px; margin-top: -5px;" src="/GR4/Res/home.png" />
+              </button>
+            </div>
+            <div class="col-md-4 topBtn">
+                <div class="popup">
+              <button type="button" id="buttonTop" class="btn btn-lg btn-block" onclick="myFunction()">
+                HELP
+                <img style="width: 35px; height: 35px; margin-top: -5px;" src="/GR4/Res/help.png" />
+              </button>
+              <span class="popuptext" id="myPopup">Find Mental Wellness tips and relevant articles</span>
+            </div>
+            </div>
+          </div>
+    </div>
+
+
+    <!-- Home Section -->
+    <section id="home-section">
+        <div class="container">
+            <hr style="background-color: white;">
+
+            <div>
+                <h2 class="home-heading" style="color: black; padding-top: 3%; padding-bottom: 0%;" id = "sec2">Wellbeing</h2>
+            </div>
+            <div class="container" style="padding-bottom: 5%;">
+                <div class="row shift">
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <iframe width="250" height="250" src="https://www.youtube.com/embed/KVpKsaeG3IE" frameborde="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 15px; border-radius: 20px;">
+                            </iframe>
+                            <div class="card-body" style="margin-top: -30px;">
+                                <h2 class="card-title" style="text-align: center;">Sleep</h5>
+                                <a href="https://www.headspace.com/sleep/how-to-sleep-better"
+                                class="btn article" style="width: 246px;">View Article</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <iframe width="250" height="250" src="https://www.youtube.com/embed/QHkXvPq2pQE" frameborde="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 15px; border-radius: 20px;">
+                            </iframe>
+                            <div class="card-body" style="margin-top: -30px;">
+                                <h2 class="card-title" style="text-align: center;">Meditation</h5>
+                                <a href="https://www.headspace.com/meditation/techniques"
+                                class="btn article" style="width: 246px;">View Article</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <iframe width="250" height="250" src="https://www.youtube.com/embed/sG7DBA-mgFY" frameborde="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 15px; border-radius: 20px;">
+                            </iframe>
+                            <div class="card-body" style="margin-top: -30px;">
+                                <h2 class="card-title" style="text-align: center;">Stress</h5>
+                                <a href="https://www.headspace.com/articles/how-to-relieve-stress"
+                                class="btn article" style="width: 246px;">View Article</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm spac">
+                    <h1 class="home-heading" style="text-align: center; padding-bottom: 0%; padding-top: 0%; color: black;">More For Your Wellbeing</h1>
+                    <div>
+                        <div>
+                            <div class="col-sm-4">
+                                <div class="card" style="width: 965px;">
+                                    <div class="card-body">
+                                        <iframe width="885" height="500" src="https://www.youtube.com/embed/-7-CAFhJn78" frameborde="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 15px; border-radius: 20px;">
+                                        </iframe>
+                                        <h2 class="card-title" style="text-align: center;">Breathing Exercise</h5>
+                                        <a href="https://www.medicalnewstoday.com/articles/324417"
+                                        class="btn article" style="width: 246px;">View Article</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+          
+    </section> 
+
+    <hr style="background-color: white;">
+
+    <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js" data-auto-replace-svg="nest"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script>
+    function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+    </script>
+  </body>

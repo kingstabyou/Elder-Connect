@@ -114,13 +114,12 @@ body {
   border-radius: 20px;
   border-width: 5px;
   font-size: 30px;
-  padding-top: 5px;
-  padding-left: 5px;
-  padding-bottom: 5px;
+  padding: 5px;
   margin: auto;
-  display: block;
   margin-left: -100px;
   margin-top: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .smallCircleBtn {
@@ -130,11 +129,24 @@ body {
   border-color: rgb(0, 0, 0);
   border-radius: 50px;
   border-width: 5px;
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.smallCircleBtn1 {
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 50px;
+  border-width: 5px;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 10px;
 }
 
 #settingsTxt1 {
   color: black;
-  padding-left: 50px;
   font-size: 35px;
   vertical-align: middle;
 }

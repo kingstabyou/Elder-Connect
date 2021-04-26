@@ -99,28 +99,27 @@
       </div> -->
         <div style="padding-top: 40px"></div>
         <div class="row">
-          <div class="col-md-2"></div>
-          <div class="col-md-5">
-            <table style="width: 100%">
+          <div class="col-md-9">
+            <table style="width: 100%; height: 200px">
               <tr>
-                <td><b>Name:</b> Ryan MCmohan</td>
+                <td><b>Name:</b> Ryan McMahon</td>
                 <td><b>Age:</b> 24</td>
               </tr>
               <tr>
-                <td>
-                  <b>Bio:</b> I love Cleaning Gardening and shoveling, born and
-                  raised in Chicago
-                </td>
+                <td><b>Bio:</b> This is my Bio</td>
               </tr>
               <tr>
                 <td><b>Price:</b> 0.3/min</td>
                 <td><b>Rating:</b> 5/5</td>
               </tr>
             </table>
-            <div class="col-md-2"></div>
           </div>
           <div class="col-md-3">
-            <img class="resize" src="/GR4/Res/jim.jfif" />
+            <img
+              class="resize"
+              src="/GR4/Res/jim.jfif"
+              style="height: 150px; width: 150px"
+            />
           </div>
         </div>
         <div style="padding-top: 40px"></div>
@@ -130,21 +129,46 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-2"></div>
-          <div class="col-md-3 popup">
-            <input type="date" id="date" required />
+          <div class="col-md-4 popup">
+            <input
+              type="date"
+              id="date"
+              required
+              style="height: 80px; width: 250px; margin-bottom: 70px"
+              value="2021-04-22"
+              min="1950-01-01"
+              max="2050-12-31"
+            />
             <span class="popuptext" id="myPopup1"
               >Date picker to select the scheduled date</span
             >
           </div>
-          <div class="col-md-2 popup">
-            <input type="time" id="time" required />
+          <div class="col-md-4 popup">
+            <input
+              type="time"
+              id="time"
+              required
+              style="height: 80px; width: 250px"
+              min="12:00"
+              max="12:00"
+            />
             <span class="popuptext" id="myPopup2"
               >Time picker to select the scheduled time</span
             >
           </div>
-          <div class="col-md-3 popup">
-            <button type="button" id="buttonTop" class="button1">
+          <div class="col-md-4 popup">
+            <button
+              type="button"
+              id="buttonTop"
+              class="button1"
+              onclick="myFunction1()"
+              style="
+                height: 80px;
+                width: 250px;
+                display: flex;
+                padding-left: 20%;
+              "
+            >
               Confirm
             </button>
             <span class="popuptext" id="myPopup3"
@@ -163,6 +187,9 @@
         popup1.classList.toggle("show");
         popup2.classList.toggle("show");
         popup3.classList.toggle("show");
+      }
+      function myFunction1() {
+        alert("Appointment Confirmed");
       }
     </script>
   </body>

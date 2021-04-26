@@ -53,6 +53,11 @@
 		}
 		} 
 	</script>
+	<script>
+		function myFunction() {
+		  alert("Your settings have been saved!");
+		}
+	</script>
 
     <div class="container-fluid">
 	<div class="row" style="margin-top: 20px;">
@@ -93,7 +98,7 @@
 					-
 				</button>
 				<a id="settingsTxt1">TEXT SIZE</a>
-				<button type="button" id="settingsBtnRight" class="smallCircleBtn">
+				<button type="button" class="smallCircleBtn1">
 					+
 				</button>
 			</div>
@@ -103,17 +108,17 @@
 					-
 				</button>
 				<a id="settingsTxt2">COLOR CONTRAST</a>
-				<button type="button" id="settingsBtnRight" class="smallCircleBtn">
+				<button type="button" class="smallCircleBtn1">
 					+
 				</button>
 			</div>
 
-			<button type="button" class="okBtn" onclick="window.open('/GR4/index.html','_self')">
+			<button type="button" class="okBtn" onclick="window.open('/GR4/index.html','_self'); myFunction()">
 				OK
 			</button>
 		</div>
-		<div class="col-md-4">
-		</div>
+		<!-- <div class="col-md-4">
+		</div> -->
 	</div>
 </div>
   </body>

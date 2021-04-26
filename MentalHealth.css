@@ -195,9 +195,9 @@ body {
   display: block;
 }
 
-.card:hover {
+/* .card:hover {
   box-shadow: 5px 5px 5px gray;
-}
+} */
 
 .table {
   border-radius: 20px;
